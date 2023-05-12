@@ -1,0 +1,493 @@
+@media only screen and (max-width: 900px) {
+   
+    .logo img{
+        margin-left: 20px;
+    }
+    .section-1{
+        margin-left: 10px;
+    }
+   
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        margin-right: 150px;
+    }
+    
+    .nav{
+        display: none;
+    }
+    .header .btns{
+        /* display: flex; */
+        display: none;
+      /* justify-content: space-around;
+      margin-right: 20px;
+      margin-left: 10px; */
+    }
+    /* .header .btns .btn-2{
+        width: 100px;
+        height: 44px;
+        border: 1px solid #000;
+       border-radius: 12px;
+       margin-left: 10px;
+    } */
+    .nav{
+      height: 0;
+      display: flex;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      background-color: black;
+      transition: 0.5s;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .nav ul{
+        flex-direction: column;
+        margin: 30px auto 0 auto;
+        opacity: 1;
+    }
+    .nav ul li{
+        padding: 20px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .nav ul li a{
+        color: #fff;
+    }
+    .nav ul li a:hover{
+        background: #fff;
+        color: #000;
+        transition: .5s;
+        border-radius: 12px;
+    }
+
+    .nav.show{
+         height:250px;
+    }
+    .nav.show ul{
+        opacity:1;
+    }
+
+}
+
+/* section-1  */
+@media  only screen and (max-width: 900px) {
+    .section-1{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .section-1 .text h1{
+        width: 500px;
+        height: 100px;
+        font-size: 50px;
+        line-height:60px;
+    }
+    .section-1 .text p{
+        margin-top: 30px;
+        width: 500px;
+        height: 105px;
+        font-size: 17px;
+    }
+
+    .section-1 .border .blank-1{
+        margin-top: 30px;
+        width: 500px;
+    }
+    .section-1 .border .blank-1 .btn{
+        width: 60px;
+        height: 56px;
+        position: absolute;
+        left: 450px;
+        top:425px;
+    }
+    .section-1 .border .blank-1 .btn img{
+        margin-left: 18px;
+    }
+    .section-1 .border .blank-2{
+        width:500px;
+    }
+    .section-1 .border .blank-2 .p-one p{
+        padding-left: 10px;
+    }
+    .section-1 .border .blank-2 .p-one span{
+        position: absolute;
+        left: 72px;
+        top: 485px;
+    }
+    .section-1 .border .blank-2 .p-one .boder{
+        position: absolute;
+        left:92px;
+        top: 505px;
+    }
+    .section-1 .border .blank-2 .p-two p{
+        padding-left: 32px;
+    }
+    .section-1 .border .blank-2 .p-two span{
+        position: absolute;
+        left: 172px;
+        top: 485px;
+    }
+    .section-1 .border .blank-2 .p-two .boder{
+        position: absolute;
+        left:192px;
+        top: 505px;
+    }
+    .section-1 .border .blank-2 .p-three p{
+        padding-left: 30px;
+        padding-top: 22px;
+    }
+    .section-1 .border .blank-2 .p-three span{
+        position: absolute;
+        left: 320px;
+        top: 485px;
+    }
+    .section-1 .border .blank-2 .p-three .boder{
+        position: absolute;
+        left:340px;
+        top: 505px;
+    }
+    .section-1 .border .blank-2 .p-four p{
+        padding-left: 25px;
+        padding-top: 22px;
+    }
+    .section-1 .border .blank-2 .p-four span{
+        position: absolute;
+        left: 420px;
+        top: 485px;
+    }
+    .section-1 .border .blank-2 .p-four .boder{
+        position: absolute;
+        left:440px;
+        top: 505px;
+    }
+    .section-1 .border .blank-2 .p-five p{
+        padding-left: 30px;
+        padding-top: 22px;
+    }
+    .section-1 .border .blank-2 .p-five span{
+        position: absolute;
+        left: 490px;
+        top: 485px;
+    }
+    .section-1 .plas_heading .hed-2{
+        margin-left:50px;
+    }
+    .section-1 .plas_heading .hed-3{
+        margin-left:50px;
+    }
+
+    .section-1 .photo img{
+        position: absolute;
+        left: 20px;
+        top: 674px;
+        width: 200px;
+     }
+     .section-1 .photo .bulding img{
+        position: absolute;
+        left: 115px;
+        top: 760px;
+        border-radius: 30px;
+        width: 284px;
+        height: 416px;   
+    }
+    .section-1 .photo .small_buld img{
+        position:absolute;
+        top: 925px;
+        left: 245px;
+    }
+    .section-1 .photo .small_buld .video img{
+        position: absolute;
+        left: 292px;
+        top: 995px;
+        width: 50px;
+    }
+}
+/* section-1 end */
+
+
+/* section-chose */
+@media only screen and (max-width: 900px){
+    .section_chose{
+        margin-top: 590px;
+    }
+    
+    .section_chose h5{
+        font-size: 40px;
+        line-height: 65px;
+        margin-left: 50px;
+        }
+        .section_chose p{
+            font-size: 14px;
+            margin-left: 20px;
+            width: 400px;
+            text-align: center;
+         }
+         .section_chose .clock_box{
+            display:block;
+            margin-left:40px;
+           
+         }
+
+}
+/* section-chose end */
+
+/* section-2 start */
+@media only screen and (max-width: 900px) {
+ 
+    .section-2{
+        margin-top: 30px;
+      }
+      .section-2 .text h1{
+        margin-left:50px;
+        font-size: 40px;
+        line-height: 30px;
+     }
+     .section-2 .text p{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        width: 400px;
+    }
+    .section-2 .three-box{
+        display:block;
+        margin-left: 40px;
+       
+    }
+    .section-2 .three-box .box{
+        margin-top: 40px;
+    }
+    .section-2 .three-box .box-1 p{
+        position: absolute;
+        left: 83px;
+        top: 2970px;
+     }
+
+     .section-2 .three-box .box-2 p{
+        position: absolute;
+        left:83px;
+        top: 3494px;
+    }
+
+    .section-2 .three-box .box-3 p{
+        position: absolute;
+        left:83px;
+        top:4018px;
+    }
+     .three-box .box-1 .three_text p{
+        position: absolute;
+        left:65px;
+    }
+    .three-box .box-2 .three_text p{
+        position: absolute;
+        left:65px;
+    }
+    .three-box .box-3 .three_text p{
+        position: absolute;
+        left:65px;
+    }
+    
+    .three-box .box-1 .end-box{
+        position: absolute;
+        left:65px;
+        top: 3022px;
+    }
+    .three-box .box-2 .end-box{
+        position: absolute;
+        left:65px;
+        top: 3552px;
+    }
+    .three-box .box-3 .end-box{
+        position: absolute;
+        left:65px;
+        top: 4072px;
+    }
+    .three-dote .first-dote{
+        position: absolute;
+        left: 156px;
+    }
+    .three-dote .second-dote{
+        position: absolute;
+        left: 186px;
+    }
+    .three-dote .third-dote{
+        position: absolute;
+        left: 216px;
+    }
+}
+/* section-2 end */
+
+       /* section-3 start on footer */
+@media only screen and (max-width: 900px){
+    .section-3{
+        display: block;
+    }
+    .section-3 .photo span img{
+        position: absolute;
+        margin-left:0px;
+        width: 200px;
+        height: 200px;
+        top: 4075px;
+     }
+     .section-3 .photo img{
+        margin-left: 70px;
+        width: 350px;
+        height: 450px;
+      }
+      .section-3 .photo #small img{
+        position: absolute;
+        left:260px;
+        top: 4430px;
+     }
+
+     .section-3 .text h2{
+        font-size: 36px;
+        line-height: 50px;
+        margin-top: 130px;
+        height: 120px;
+        width: 400px;
+        margin-left: 50px;
+    }
+    .section-3 .text p{
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 40px;
+        margin-top: 7px;
+        height: 150px;
+        width: 430px;
+    }
+    .section-3 .text .icon_text_3 .icon_1 img{
+        margin-left:40px;
+    
+      }
+      .section-3 .text .icon_text_3 .icon_1 span{
+        margin-left:10px;
+        letter-spacing: 0.01em;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .section-4{
+        width:95vw;
+        height: 400px;
+        margin-top:70px;
+        display:block;
+     }
+     .section-4 h4{
+        font-size: 26px;
+        line-height:30px;
+        padding-top: 40px;
+        padding-left:70px;
+    }
+    .section-4 p{
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing:0.02em;
+        padding-left:70px;
+        margin-top: 15px;
+        width:450px;
+    }
+    .section-4 .serching p{
+        padding-top:60px;
+        padding-left:90px;
+        line-height: 18px;
+    }
+    .section-4 .serching input{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .section-4 .serching .btns .btn{
+        position: absolute;
+        margin-left:280px;
+        margin-top:10px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .footer{
+        width:95vw;
+        height:100%;
+        display:flex;
+        flex-wrap: wrap;
+     }
+     .footer .logo_div .photo img{
+        margin-left:30px;
+        margin-top: 30px;
+    }
+    .footer .logo_div .text h2{
+        margin-top: 40px;
+        margin-left: 10px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .footer .logo_div .text p{
+        width: 332px;
+        height: 148px;
+        letter-spacing:0.03em;
+        margin-top: 30px;
+        position: absolute;
+        left: 34px;
+    }
+    .footer .quick{
+        margin-left: 100px;
+        margin-top:0px;
+    }
+    .footer .quick h3{
+        margin-left:50px;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing:0.02em;
+    }
+    .footer .quick #sport {
+        margin-left:60px;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing:0.02em;
+    }
+    .footer .quick h4{
+        margin-left:60px;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing:0.02em;
+    }
+      
+   
+    .footer .company h3{
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+    .footer .company #sport{
+        margin-left:50px;
+        margin-top: 20px;
+    }
+    .footer .company h4{
+        margin-left:50px;
+        margin-top: 10px;
+    }
+    .footer .company .icons{
+        display: flex;
+        margin-top:30px;
+        margin-left: 20px;
+    }
+    .footer .border{
+        position: absolute;
+        top: 6500px;
+        width: 100%;
+    }
+    .footer .pera{
+        position: absolute;
+        margin-left:140px;
+        /* top: 5900px; */
+        margin-top: 650px;
+    }
+    .footer .pera h5{
+        color: #fff;
+    }
+}
+
