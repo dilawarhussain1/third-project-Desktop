@@ -514,113 +514,90 @@ text-transform: capitalize;
     text-transform: capitalize;
 }
 
-/* .section-2 .three-box .box-1{
-    position: absolute;
-    left: 225px;
-}
-.section-2 .three-box .box-2{
-    position: absolute;
-    left: 725px;
-}
-.section-2 .three-box .box-3{
-    position: absolute;
-    left: 1210px;
-} */
 
 .section-2 .three-box .box-1 span img{
-    margin-left: 25px;
+    margin-left:10px;
     margin-top: 11px;
-
-    position: absolute;
-   left: 185px;
-   top: 2150px;
 }
 .section-2 .three-box .box-1 span {
    font-size: 14.5px;
-   line-height: 17px;
-   margin-left: 22px;
+   line-height: 10px;
+   margin-left:10px;
    /* position: absolute;
    left: 155px;
    top: 2163px; */
 }
 
 .section-2 .three-box .box-2 span img{
-    margin-left: 25px;
+    margin-left:10px;
     margin-top: 11px;
-
-    position: absolute;
-   left: 675px;
-   top: 2150px;
 }
 .section-2 .three-box .box-2 span{
     font-size: 14.5px;
-    line-height: 17px;
-    margin-left: 25px;
+    line-height: 10px;
+    margin-left: 10px;
     /* position: absolute;
     left:720px;
     top: 2163px; */
 }
 
 .section-2 .three-box .box-3 span img{
-    margin-left: 25px;
+    margin-left: 10px;
     margin-top: 11px;
 
-    position: absolute;
-   left: 1160px;
-   top: 2150px;
 }
-.section-2 .three-box .box-3 p{
+.section-2 .three-box .box-3 span{
     font-size: 14.5px;
-    line-height: 17px;
-    margin-left: 45px;
+    line-height: 10px;
+    margin-left: 10px;
     /* position: absolute;
     left:1279px;
     top:2163px; */
 }
 
 .section-2 .three-box .box .three_text{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
 }
 .three-box .box-1 .three_text p{
-    margin-top: 25px;
-    margin-left:0px;
-    font-size: 14.2px;
+    margin-top: 5px;
+    margin-left:20px;
+    font-size: 16.2px;
+    font-weight: bold;
     letter-spacing: 0.05em;
-    position: absolute;
-    left:213px;
+    /* position: absolute;
+    left:213px; */
 
 }
-.three-box .box .three_text #p_2{
-    margin-top: 25px;
-    margin-left:90px;
-    font-size: 13.2px;
+.three-box .box .three_text  #p_2{
+    margin-top: 5px;
+    margin-left:10px;
+    font-size: 14.2px;
     letter-spacing: 0.05em;
  
 }
 .three-box .box .three_text #p_3{
-    margin-top: 25px;
-    margin-left:200px;
+    margin-top: 5px;
+    margin-left:10px;
     font-size: 13.2px;
     letter-spacing: 0.05em;
   
 }
 .three-box .box-2 .three_text p{
-    margin-top: 25px;
-    margin-left:0px;
-    font-size: 13.2px;
+    margin-top: 5px;
+    margin-left:20px;
+    font-size: 14.2px;
+    font-weight: bold;
     letter-spacing: 0.05em;
-    position: absolute;
-    left:699px;
 
 }
 .three-box .box-3 .three_text p{
-    margin-top: 25px;
-    margin-left:0px;
+    margin-top: 5px;
+    margin-left:20px;
     font-size: 13.2px;
+    font-weight: bold;
     letter-spacing: 0.05em;
-    position: absolute;
-    left: 1190px;
+    
 
 }
 
@@ -628,37 +605,50 @@ text-transform: capitalize;
 
 .three-box .box .three_text img{
     margin-left: 83px;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 /* ye nichy end-box he */
 .three-box .box-1 .end-box{
-    position: absolute;
     width: 114px;
     height: 31px;
-    left: 205px;
-    top: 2242px;
+     margin-top: 10px;
+     margin-left: 20px;
     border: 0.82517px solid #000000;
     border-radius: 12px;
-    display: flex;
-    justify-content:space-between;
-}
-.three-box .box-1 .end-box h5{
-   margin-left: 30px;
-   margin-top: 7px;
-   
 }
 
+.three-box .box .end-box .explor{
+ display: flex;
+ justify-content: space-between;
+}
+.three-box .box .end-box p{
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.three-box .box .end-box .month p{
+    margin-left:0px;
+    width: 300px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+    margin-top:5px;
+    align-items: center;
+    height: 100px;
+    text-transform: capitalize;
+    color: #5803F3;
+    text-align: center;
+ }
+
 .three-box .box-2 .end-box{
-    position: absolute;
     width: 114px;
     height: 31px;
-    left:695px;
-    top: 2242px;
+     margin-top: 10px;
+     margin-left: 20px;
     border: 0.82517px solid #000000;
     border-radius: 12px;
     display: flex;
-    justify-content:space-between;
 }
 .three-box .box-2 .end-box h5{
    margin-left: 30px;
@@ -666,34 +656,26 @@ text-transform: capitalize;
 }
 
 .three-box .box-3 .end-box{
-    position: absolute;
     width: 114px;
     height: 31px;
-    left: 1185px;
-    top: 2242px;
+     margin-top: 10px;
+     margin-left: 20px;
     border: 0.82517px solid #000000;
     border-radius: 12px;
-    display: flex;
-    justify-content:space-between;
 }
-.three-box .box-3 .end-box h5{
+.three-box .box-3 .end-box p{
    margin-left: 30px;
    margin-top: 7px;
 }
 
-/* h4 in all is comin  */
-.three-box .box .end-box h4{
-    margin-left: 60px;
-    width: 167px;
-    height: 18px;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 18px;
-    text-transform: capitalize;
-    color: #5803F3;
-    margin-top:7px; 
+
+
+ .three-box .box-2 .end-box span{
+    margin-left: 50px;
+    width: 180px;
+    height: 50px;
  }
- .three-box .box .end-box h4:hover{
+ .three-box .box .end-box p:hover{
     text-decoration: underline;
     text-decoration-color: tomato;
     text-decoration-style: dashed;
