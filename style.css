@@ -493,8 +493,8 @@ text-transform: capitalize;
 .section-2 .three-box{
     display: flex;
     justify-content: space-around;
-    /* margin-left: 114px;
-    margin-right: 114px; */
+    margin-left: 114px;
+    margin-right: 114px;
     margin-top: 47px;
 }
 .section-2 .three-box .box{
@@ -507,35 +507,75 @@ text-transform: capitalize;
 .section-2 .three-box .box h3{
     margin-left: 25px;
     margin-top: 19px;
+    margin-bottom: 10px;
     font-size: 22px;
     line-height: 26px;
     font-weight: bold;
     text-transform: capitalize;
 }
-.section-2 .three-box .box span img{
+
+/* .section-2 .three-box .box-1{
+    position: absolute;
+    left: 225px;
+}
+.section-2 .three-box .box-2{
+    position: absolute;
+    left: 725px;
+}
+.section-2 .three-box .box-3{
+    position: absolute;
+    left: 1210px;
+} */
+
+.section-2 .three-box .box-1 span img{
     margin-left: 25px;
     margin-top: 11px;
-}
-.section-2 .three-box .box-1 p{
-   font-size: 13px;
-   line-height: 17px;
-   position: absolute;
-   left: 155px;
-   top: 2163px;
-}
-.section-2 .three-box .box-2 p{
-    font-size: 13px;
-    line-height: 17px;
+
     position: absolute;
+   left: 185px;
+   top: 2150px;
+}
+.section-2 .three-box .box-1 span {
+   font-size: 14.5px;
+   line-height: 17px;
+   margin-left: 22px;
+   /* position: absolute;
+   left: 155px;
+   top: 2163px; */
+}
+
+.section-2 .three-box .box-2 span img{
+    margin-left: 25px;
+    margin-top: 11px;
+
+    position: absolute;
+   left: 675px;
+   top: 2150px;
+}
+.section-2 .three-box .box-2 span{
+    font-size: 14.5px;
+    line-height: 17px;
+    margin-left: 25px;
+    /* position: absolute;
     left:720px;
-    top: 2163px;
+    top: 2163px; */
+}
+
+.section-2 .three-box .box-3 span img{
+    margin-left: 25px;
+    margin-top: 11px;
+
+    position: absolute;
+   left: 1160px;
+   top: 2150px;
 }
 .section-2 .three-box .box-3 p{
-    font-size: 13px;
+    font-size: 14.5px;
     line-height: 17px;
-    position: absolute;
+    margin-left: 45px;
+    /* position: absolute;
     left:1279px;
-    top:2163px;
+    top:2163px; */
 }
 
 .section-2 .three-box .box .three_text{
@@ -545,28 +585,10 @@ text-transform: capitalize;
 .three-box .box-1 .three_text p{
     margin-top: 25px;
     margin-left:0px;
-    font-size: 13.2px;
+    font-size: 14.2px;
     letter-spacing: 0.05em;
     position: absolute;
-    left:133px;
-
-}
-.three-box .box-2 .three_text p{
-    margin-top: 25px;
-    margin-left:0px;
-    font-size: 13.2px;
-    letter-spacing: 0.05em;
-    position: absolute;
-    left:699px;
-
-}
-.three-box .box-3 .three_text p{
-    margin-top: 25px;
-    margin-left:0px;
-    font-size: 13.2px;
-    letter-spacing: 0.05em;
-    position: absolute;
-    left: 1260px;
+    left:213px;
 
 }
 .three-box .box .three_text #p_2{
@@ -583,10 +605,30 @@ text-transform: capitalize;
     letter-spacing: 0.05em;
   
 }
+.three-box .box-2 .three_text p{
+    margin-top: 25px;
+    margin-left:0px;
+    font-size: 13.2px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    left:699px;
+
+}
+.three-box .box-3 .three_text p{
+    margin-top: 25px;
+    margin-left:0px;
+    font-size: 13.2px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    left: 1190px;
+
+}
+
+
 
 .three-box .box .three_text img{
     margin-left: 83px;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 /* ye nichy end-box he */
@@ -594,8 +636,8 @@ text-transform: capitalize;
     position: absolute;
     width: 114px;
     height: 31px;
-    left: 135px;
-    top: 2222px;
+    left: 205px;
+    top: 2242px;
     border: 0.82517px solid #000000;
     border-radius: 12px;
     display: flex;
@@ -612,7 +654,7 @@ text-transform: capitalize;
     width: 114px;
     height: 31px;
     left:695px;
-    top: 2222px;
+    top: 2242px;
     border: 0.82517px solid #000000;
     border-radius: 12px;
     display: flex;
@@ -627,8 +669,8 @@ text-transform: capitalize;
     position: absolute;
     width: 114px;
     height: 31px;
-    left: 1255px;
-    top: 2222px;
+    left: 1185px;
+    top: 2242px;
     border: 0.82517px solid #000000;
     border-radius: 12px;
     display: flex;
